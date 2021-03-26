@@ -1,2 +1,4 @@
 # mcdoerr.github.io
-Personal website
+My personal website!
+
+Last updated: 03/25/2021
