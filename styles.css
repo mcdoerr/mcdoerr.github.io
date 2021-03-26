@@ -1,0 +1,126 @@
+body {
+    margin: 0px;
+}
+
+#headshot {
+    border-radius: 50%;
+    border: 1px solid #f0e4d7;
+}
+
+h1, h2, li, p, a {
+    font-family: "Verdana", sans-serif;
+}
+
+p {
+    line-height: 25px;
+}
+
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h3 {
+    padding-left: 10px;
+}
+
+button {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+iframe {
+    position: relative;
+    top: -250px;
+}
+
+.selected {
+    opacity: .5;
+}
+
+.container { 
+    display: flex;
+    justify-content: space-around;
+}
+
+.side-by-side {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.text-description {
+    width: 45%; 
+    margin-right: 20px;
+}
+
+.side-by-side-top {
+    display: flex;
+    justify-content: left;
+}
+
+.hidden {
+    display: none;
+}
+
+#header {
+    background-color: #caebf2;
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    margin: 0px;
+    border-bottom: 4px solid #ff3b3f;
+}
+
+#aboutme {
+    width: 25%;
+    height: 600px;
+    background-color:efefef;
+    border-right: 4px solid #ff3b3f;
+}
+
+#aboutme hr {
+    border: 1px solid #ff3b3f;
+    width: 90%;
+}
+
+#aboutme p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#contact {
+    padding: 15px;
+}
+
+#experience {
+    width: 70%;
+}
+
+#experience img {
+    margin-left: 15px;
+}
+
+#pinterest-container {
+    height: 350px; 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+#description {
+    height: 530px;
+    margin-left: 5px;
+    margin-top: 15px;
+    padding-left: 15px;
+}
+
+#description p {
+    text-align: left;
+}

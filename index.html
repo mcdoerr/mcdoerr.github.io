@@ -1,0 +1,127 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Madison Doerr</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="main.js"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <img id="headshot" src="static/img/headshot.jpeg" alt="Madison Doerr headshot" />
+        <div id="contact">
+            <h1>Madison Doerr</h1>
+            <hr />
+            <ul>
+                <li>
+                    <strong>Email</strong>: madison.doerr@gmail.com
+                </li>
+                <li>
+                    <strong>Phone</strong>: 719-213-0937
+                </li>
+                <li>
+                    <strong>Linkedin</strong>: <a href=https://www.linkedin.com/in/madisoncdoerr>madisoncdoerr</a>
+                </li>
+                <li>
+                    <strong>GitHub</strong>: <a href=https://github.com/mcdoerr>mcdoerr</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <section class="segment" id="aboutme">
+            <div>
+                <h2>About Me!</h2>
+                <p>
+                    I'm a student at the University of Washington majoring in computer science and minoring in philosophy! 
+                </p>
+                <hr />
+                <p>
+                    My research and industry interests are in robotics, accessibility, and cultivating large datasets.
+                    Furthermore, I'm passionate about ethics and philosohpy in computer science and business.
+                </p>
+                <hr />
+                <p>
+                    In my free time, I like to 
+                    boulder, play piano, and peruse the cheese aisle at Trader Joe's.
+                </p>
+            </div>
+        </section>
+        <section class="segment" id="experience">
+            <div class="container" id="nav">
+                <button id="industry" class="selected" selected>Industry</button>
+                <button id="research">Research</button>
+                <button id="teaching">Teaching</button>
+            </div>
+            <div id="description">
+                <div id="industry-description">
+                    <div class="side-by-side">
+                        <img src="static/img/picon.jpeg" alt="Pinterest icon" width="20px" height="20px"/>
+                        <h3>Intern at Pinterest</h3>
+                    </div>
+                    <div class="side-by-side-top">
+                        <p class="text-description">
+                            Last summer, I was a fullstack intern at Pinterest on the Insights and Analytics team!
+                            I worked on extending the app on Android and iOS to show statistics to content creators about their current audience and their target audience using React Native. 
+                            I learned a ton about running A/B experiments, creating API endpoints, and writing maintainable code on both ends of the stack.
+                            I'm looking forwards to coming back to Pinterest this summer!
+                        </p>
+                        <div id="pinterest-container">
+                            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6694652297147944960" scrolling="no" height="750" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div id="research-description" class="hidden">
+                    <div>
+                        <div class="side-by-side">
+                            <img src="static/img/prl.jpg" alt="Pinterest icon" width="20px" height="20px"/>
+                            <h3>Personal Robotics Lab</h3>
+                        </div>
+                        <div class="side-by-side-top">
+                            <p class="text-description">
+                                I recently joined the Personal Robotics Lab to work on MuSHr, the <a href="https://mushr.io/">Multi-agent System for non-Holonomic Racing</a>. 
+                                I've really enjoyed debugging physical systems as well as software, and learning more about robotic control stacks, including <a href="https://www.ros.org/">ROS</a>.
+                            </p>
+                            <img src="static/img/mushr.gif" width="300px" alt="Mushr car">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="side-by-side">
+                            <img src="static/img/sidewalk-logo.png" alt="Project Sidewalk icon" width="20px" height="20px"/>
+                            <h3>Makeability Lab: Project Sidewalk</h3>
+                        </div>
+                        <div class="side-by-side-top">
+                            <p class="text-description">
+                                <a href="https://makeabilitylab.cs.washington.edu/project/sidewalk/">Project sidewalk</a> is an open-source project aimed to gather data about the world's sidewalks and their accessibility through gamifying data collection.
+                                I've learned a lot about data collection and software development from working on this project, and I love contributing to open-source projects and using 
+                                software to make the world more accessible!
+                            </p>
+                            <img src="static/img/sidewalk.png" width="300px" alt="Mushr car">
+                        </div>
+                    </div>
+                </div>
+                <div id="teaching-description" class="hidden">
+                    <div class="side-by-side">
+                        <img src="static/img/ta.jpeg" alt="Pinterest icon" width="20px" height="20px"/>
+                        <h3>Teaching Assistant</h3>
+                    </div>
+                    <div class="side-by-side-top">
+                        <p class="text-description">
+                            I've worked as a teaching assistant in the Paul G. Allen School of Computer Science and Engineering for 5 quarters. I love teaching because 
+                            it showed me how to communicate better and to work towards a common goal: the student's understanding. It's also improved my communication skills
+                            and my ability to write on a whiteboard quickly!
+                        </p>
+                        <img src="static/img/ta-photo.jpeg" width="300px" alt="TA group photo">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
